@@ -1,7 +1,3 @@
-# security
-A growing repository of basic security techniques, for learning purposes.
-
-
 ## IAT-hooking
 A simple implementation of local IAT hooking, resulting in running **MessageBoxA** when calling to **Sleep** (both are Win32API functions).  
 
