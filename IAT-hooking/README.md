@@ -13,9 +13,7 @@ A simple implementation of local IAT hooking, resulting in running **MessageBoxA
 ### Example Output:
 >**The imported modules are**:
 >
->============  
 >KERNEL32.dll  
->============
 >
 >**Imported functions for this module**:  
 >
