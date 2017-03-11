@@ -10,7 +10,7 @@ A simple implementation of local IAT hooking, resulting in running **MessageBoxA
 
 1. Parsing the local process' PE header, finding the **import directory** and the **IAT**.
 2. Iterating the **imported modules** and the **imported functions** of each module. (also printing them)
-3. Findind the IAT entries of **MessageBoxA** and **Sleep** Win32API functions.
+3. Finding the IAT entries of **MessageBoxA** and **Sleep** Win32API functions.
 4. Overwriting **Sleep** function address in the **IAT** to **MessageBoxA** function address.
 5. Calling **Sleep** from code - and the called function is **MessageBoxA**.
 
